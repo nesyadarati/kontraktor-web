@@ -87,8 +87,14 @@ ul { list-style: none; }
 }
 
 .loader-logo {
-    margin-bottom: 20px;
+    margin-bottom: 24px;
     animation: pulse-logo 2s ease-in-out infinite;
+}
+
+.loader-logo-img {
+    height: 60px;
+    width: auto;
+    filter: drop-shadow(0 0 15px rgba(212, 175, 55, 0.3));
 }
 
 @keyframes pulse-logo {
@@ -189,6 +195,15 @@ ul { list-style: none; }
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.logo-img {
+    height: 38px;
+    width: auto;
+}
+
+#navbar.scrolled .logo-img {
+    height: 34px;
 }
 
 .logo-text {
