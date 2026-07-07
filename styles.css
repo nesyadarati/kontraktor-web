@@ -92,9 +92,10 @@ ul { list-style: none; }
 }
 
 .loader-logo-img {
-    height: 60px;
+    height: 80px;
     width: auto;
-    filter: drop-shadow(0 0 15px rgba(212, 175, 55, 0.3));
+    filter: drop-shadow(0 0 20px rgba(212, 175, 55, 0.4));
+    mix-blend-mode: lighten;
 }
 
 @keyframes pulse-logo {
@@ -198,12 +199,13 @@ ul { list-style: none; }
 }
 
 .logo-img {
-    height: 38px;
+    height: 40px;
     width: auto;
+    mix-blend-mode: lighten;
 }
 
 #navbar.scrolled .logo-img {
-    height: 34px;
+    height: 36px;
 }
 
 .logo-text {
