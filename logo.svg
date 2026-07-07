@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 120">
+  <!-- Hexagon outer -->
+  <polygon points="45,10 80,10 97,30 97,70 80,90 45,90 28,70 28,30" fill="none" stroke="#D4AF37" stroke-width="3.5"/>
+  <!-- Inner geometric A shape -->
+  <path d="M62.5,25 L77,45 L77,65 L72,70 L72,52 L62.5,38 L53,52 L53,70 L48,65 L48,45 Z" fill="#D4AF37"/>
+  <!-- Small diamond accent inside -->
+  <polygon points="62.5,50 67,56 62.5,62 58,56" fill="#D4AF37" opacity="0.6"/>
+  
+  <!-- Vertical separator line -->
+  <line x1="115" y1="20" x2="115" y2="100" stroke="#D4AF37" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- Text: AURIS -->
+  <text x="130" y="48" font-family="'Inter', Arial, sans-serif" font-size="26" font-weight="800" fill="#FFFFFF" letter-spacing="3">AURIS</text>
+  <!-- Text: ARCHITECTURE -->
+  <text x="130" y="72" font-family="'Inter', Arial, sans-serif" font-size="12" font-weight="400" fill="#AAAAAA" letter-spacing="1.5">ARCHITECTURE</text>
+  <!-- Text: & INTERIOR -->
+  <text x="130" y="90" font-family="'Inter', Arial, sans-serif" font-size="12" font-weight="400" fill="#AAAAAA" letter-spacing="1.5">&amp; INTERIOR</text>
+</svg>
