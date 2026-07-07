@@ -6,18 +6,18 @@
 }
 
 :root {
-    --primary: #c8a45c;
-    --primary-dark: #a8853d;
-    --primary-light: #e8d5a0;
-    --dark: #0a0a0a;
+    --primary: #D4AF37;
+    --primary-dark: #b8962e;
+    --primary-light: #e8cf7a;
+    --dark: #1A1A1A;
     --dark-2: #141414;
-    --dark-3: #1e1e1e;
-    --dark-4: #2a2a2a;
+    --dark-3: #222222;
+    --dark-4: #2e2e2e;
     --gray: #6b6b6b;
     --gray-light: #9a9a9a;
     --white: #ffffff;
-    --white-soft: #f5f5f5;
-    --gradient: linear-gradient(135deg, var(--primary) 0%, #d4a843 50%, var(--primary-light) 100%);
+    --white-soft: #F5F5F5;
+    --gradient: linear-gradient(135deg, var(--primary) 0%, #e8c84a 50%, var(--primary-light) 100%);
     --shadow: 0 10px 40px rgba(0,0,0,0.3);
     --shadow-sm: 0 4px 15px rgba(0,0,0,0.2);
     --radius: 12px;
@@ -86,15 +86,44 @@ ul { list-style: none; }
     text-align: center;
 }
 
+.loader-logo {
+    margin-bottom: 20px;
+    animation: pulse-logo 2s ease-in-out infinite;
+}
+
+@keyframes pulse-logo {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.8; transform: scale(1.05); }
+}
+
+.loader-hexagon {
+    filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.3));
+}
+
+.loader-brand {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
 .loader-text {
     font-family: 'Playfair Display', serif;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 900;
     background: var(--gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     letter-spacing: 8px;
+}
+
+.loader-subtext {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: var(--gray-light);
+    letter-spacing: 4px;
+    text-transform: uppercase;
 }
 
 .loader-bar {
@@ -157,15 +186,9 @@ ul { list-style: none; }
 .logo-icon {
     width: 42px;
     height: 42px;
-    background: var(--gradient);
-    border-radius: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Playfair Display', serif;
-    font-weight: 900;
-    font-size: 1.3rem;
-    color: var(--dark);
 }
 
 .logo-text {
