@@ -180,7 +180,7 @@ contactForm.addEventListener('submit', (e) => {
     );
 
     // Open WhatsApp with pre-filled message
-    window.open(`https://wa.me/6281234567890?text=${waMessage}`, '_blank');
+    window.open(`https://wa.me/6285771895172?text=${waMessage}`, '_blank');
 
     // Show success feedback
     showFormSuccess();
